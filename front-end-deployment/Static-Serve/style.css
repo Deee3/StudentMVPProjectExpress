@@ -1,13 +1,5 @@
 #inline-title {
-    height: 200px;
-    width: 1000px;
-    background-color: aquamarine;
-    font-family: "Arima Madurai", cursive;
-}
 
-div#inline-title {
-    height: 200px;
-    width: 1000px;
-    background-color: aquamarine;
-    font-family: "Arima Madurai", cursive;
+    background-color: bisque;
+    font-family: "Arima Madurai";
 }
