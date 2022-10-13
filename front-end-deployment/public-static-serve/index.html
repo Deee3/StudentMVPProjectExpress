@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <title>Task Tracker</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col-md-6">
+                <h3>Create a Task</h3>
+                <form class="add-task-form">
+                    <div class="form-group">
+                        <label for="title">What Task?</label>
+                        <input type="text" class="form-control" id="task-value">
+                    </div>
+                    <div class="form-group">
+                        <label for="title">With Who?</label>
+                        <input type="text" class="form-control" id="who-value">
+                    </div>
+                    <div class="form-group">
+                        <label for="title">Email</label>
+                        <input type="text" class="form-control" id="email-value">
+                    </div>
+                    <div class="form-group">
+                        <label for="title">Phone #</label>
+                        <input type="text" class="form-control" id="phone-value">
+                    </div>
+                    <div class="form-group">
+                        <label for="title">Address</label>
+                        <input type="text" class="form-control" id="addy-value">
+                    </div>
+                    <div class="form-group">
+                        <label for="title">Date</label>
+                        <input type="text" class="form-control" id="date-value">
+                    </div>
+                    <div class="form-group">
+                        <label for="title">Time</label>
+                        <input type="text" class="form-control" id="time-value">
+                    </div>
+                    <div class="form-group">
+                        <label for="body">Extra Info</label>
+                        <textarea class="form-control" id="body-value"></textarea>
+                    </div>
+                    <button type="submit" class="buttn btn-primary">Create Task</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="tasks-list row">
+            <div class="card mt-4 col-md-6 bg-light">
+                <div class="card-body">
+                    <h5 class="card-title">Card Title</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Card Subtitle</h6>
+                    <p class="card-text"> Example Text to make up the card's content</p>
+                    <a href="#" class="card-link" id="modify-task">Modify Task</a>
+                    <a href="#" class="card-link" id="delete-task">Delete Task</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script defer src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

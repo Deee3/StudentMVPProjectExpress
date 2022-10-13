@@ -1,0 +1,22 @@
+#inline-title {
+    display: flex;
+    background-color: bisque;
+    font-family: "Arima Madurai";
+    text-align: center;
+}
+
+.article-task {
+    padding: 1rem;
+    background: hsl(196, 65%, 55%);
+
+}
+
+.column {
+    display: flex;
+    gap: 2rem;
+}
+
+.column>* {
+    flex-basis: 100%;
+
+}
